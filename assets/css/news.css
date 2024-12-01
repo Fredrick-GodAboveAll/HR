@@ -1,0 +1,52 @@
+
+
+    .ls-closed .navbar-right .navbar-nav {
+        width: 40px;
+        margin: 0 5px
+    }
+
+    @media only screen and (max-width: 768px) {
+        .ls-closed .navbar-right .navbar-nav {
+            right:-42px;
+            padding: 50px 5px 5px;
+            background: #fff;
+            height: 100vh; /* changed this */
+            width: 40px;
+            top: 0;
+            box-shadow: 0 0 10px #d6d6d6, 0 6px 20px #e2e2e2;
+            margin: 0
+        }
+
+        .ls-closed .navbar-right .navbar-nav.open {
+            right: 0
+        }
+
+        .ls-closed .navbar-right .navbar-nav .rv-btn-toggle {
+            display: block;
+            position: absolute;
+            bottom: 90px;
+            right: 40px;
+            padding: 10px;
+            border-radius: 5px 0 0 5px
+        }
+    }
+
+    .ls-closed .navbar-right .navbar-nav>li>a {
+        width: 30px
+    }
+
+    .ls-closed.right_icon_toggle section.content {
+        margin-right: 20px
+    }
+
+    .rv-btn-toggle {
+        display: none;
+    }
+
+    .rv-btn-toggle:focus,.rv-btn-toggle:hover,.rv-btn-toggle:active {
+        outline: none;
+        box-shadow: none
+    }
+
+
+    
