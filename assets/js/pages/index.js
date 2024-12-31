@@ -16,6 +16,7 @@ function initSparkline() {
         $this.sparkline('html', $this.data());
     });
 }
+
 function initC3Chart() {
     setTimeout(function(){ 
         $(document).ready(function(){
@@ -27,21 +28,24 @@ function initC3Chart() {
                         ['data1', 21, 8, 32, 18, 19, 17, 23, 12, 25, 37],
                         ['data2', 7, 11, 5, 7, 9, 16, 15, 23, 14, 55],
                         ['data3', 13, 7, 9, 15, 9, 31, 8, 27, 42, 18],
+                        ['data4', 40, 17, 19, 25, 29, 11, 18, 17, 22, 7],
                     ],
                     type: 'area-spline', // default type of chart
                     groups: [
-                        [ 'data1', 'data2', 'data3']
+                        [ 'data1', 'data2', 'data3', 'data4']
                     ],
                     colors: {
                         'data1': Aero.colors["gray"],
                         'data2': Aero.colors["teal"],
                         'data3': Aero.colors["lime"],
+                        'data4': Aero.colors["red"],
                     },
                     names: {
                         // name of each serie
                         'data1': 'Revenue',
                         'data2': 'Returns',
                         'data3': 'Queries',
+                        'data4': 'report',
                     }
                 },
                 axis: {

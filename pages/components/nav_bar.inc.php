@@ -9,6 +9,42 @@
         <ul class="navbar-nav">
             <li><a href="#search" class="main_search" title="Search..."><i class="zmdi zmdi-search"></i></a></li>
             <li class="dropdown">
+                <a href="javascript:void(0);" class="dropdown-toggle" title="App" data-toggle="dropdown" role="button"><i class="zmdi zmdi-cloud-outline-alt"></i></a>
+                <ul class="dropdown-menu slideUp2">
+                    <li class="header">Modules</li>
+                    <li class="body">
+                        <ul class="menu app_sortcut list-unstyled">
+                            <li>
+                                <a href="image-gallery.html">
+                                    <div class="icon-circle mb-2 bg-amber"><i class="ti ti-package"></i></div>
+                                    <p class="mb-0">Payroll</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">
+                                    <div class="icon-circle mb-2 bg-red"><i class="zmdi zmdi-graduation-cap"></i></div>
+                                    <p class="mb-0">Jobs</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="events.html">
+                                    <div class="icon-circle mb-2 bg-green"><i class="ti ti-timer"></i></div>
+                                    <p class="mb-0">Leave</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="contact.html">
+                                    <div class="icon-circle mb-2 bg-purple"><i class="zmdi zmdi-apps"></i></div>
+                                    <p class="mb-0">App Store</p>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
                 <a href="javascript:void(0);" class="dropdown-toggle" title="App" data-toggle="dropdown" role="button"><i class="zmdi zmdi-apps"></i></a>
                 <ul class="dropdown-menu slideUp2">
                     <li class="header">App Sortcute</li>

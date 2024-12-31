@@ -340,8 +340,8 @@ $(function() {
                 data: {
                     columns: [
                         // each columns data
-                        ['data1', 11, 8, 15, 18, 19, 17],
-                        ['data2', 7, 7, 5, 7, 9, 12]
+                        ['data1', 11, 11, 15, 11, 11, 17],
+                        ['data2', 7, 7, 5, 7, 9, 7]
                     ],
                     type: 'bar', // default type of chart
                     colors: {

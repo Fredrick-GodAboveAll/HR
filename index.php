@@ -47,9 +47,9 @@
                         <a href="pages/admin/dashboard.inc.php" class="btn btn-primary btn-block waves-effect waves-light">SIGN IN</a>                        
                         <div class="signin_with mt-3">
                             <p class="mb-0">or Sign Up using</p>
-                            <button class="btn btn-primary btn-icon btn-icon-mini btn-round facebook"><i class="zmdi zmdi-facebook"></i></button>
+                            <button class="btn btn-primary btn-icon btn-icon-mini btn-round facebook"><i class="zmdi zmdi-github"></i></button>
                             <button class="btn btn-primary btn-icon btn-icon-mini btn-round twitter"><i class="zmdi zmdi-twitter"></i></button>
-                            <button class="btn btn-primary btn-icon btn-icon-mini btn-round google"><i class="zmdi zmdi-google-plus"></i></button>
+                            <button class="btn btn-primary btn-icon btn-icon-mini btn-round google"><i class="zmdi zmdi-google"></i></button>
                         </div>
                     </div>
                 </form>
