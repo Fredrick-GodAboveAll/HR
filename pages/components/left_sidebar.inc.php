@@ -22,7 +22,27 @@
                     </div>
                 </div>
             </li>
-            <li class="active open"><a href="index.html"><i class="ti ti-home"></i><span>Dashboard</span></a></li>
+
+            <!-- page dashboard  -->
+            <li class="<?php if($page=='dashboard') {echo 'active open';} ?>">
+                <a href="../admin/dashboard.inc.php"><i class="ti ti-home"></i><span>Dashboard</span></a>
+            </li>
+
+            <li class="<?php if($page=='add_emp') {echo 'active open';} ?>"><a href="javascript:void(0);" class="menu-toggle">
+                <i class="zmdi zmdi-account-o"></i><span>Employees</span></a>
+                <ul class="ml-menu">
+                    <li class="<?php if($page=='add_emp') {echo 'active';} ?>"><a href="../admin/view_employees.inc.php">View Employees</a></li>
+                    <li class="<?php if($page=='add_emp') {echo 'active';} ?>"><a href="../admin/add_employee.inc.php">Add Employees</a></li>
+
+                    <li><a href="chat.html">Manage Contracts</a></li>
+                    <li><a href="contact.html">Payroll Data</a></li>                    
+                    <li><a href="contact.html">Employee Data</a></li>                    
+                    <li><a href="contact.html">Employee Documents <span class="badge badge-info">new</span> </a></li>                    
+                    <li><a href="contact.html">Employee Messaging <span class="badge badge-info">new</span></a></li>                    
+                    <li><a href="contact.html">Work Shifts</a></li>                    
+                    <li><a href="contact.html">Terminate Employment</a></li>                    
+                </ul>
+            </li>
 
             <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-money-off"></i><span>Process Pay</span></a>
                 <ul class="ml-menu">
@@ -74,19 +94,7 @@
                 </ul>
             </li>
 
-            <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-account-o"></i><span>Employees</span></a>
-                <ul class="ml-menu">
-                    <li><a href="mail-inbox.html">View Employees</a></li>
-                    <li><a href="chat.html">Manage Contracts</a></li>
-                    <li><a href="events.html">Add Employees</a></li>
-                    <li><a href="contact.html">Payroll Data</a></li>                    
-                    <li><a href="contact.html">Employee Data</a></li>                    
-                    <li><a href="contact.html">Employee Documents <span class="badge badge-info">new</span> </a></li>                    
-                    <li><a href="contact.html">Employee Messaging <span class="badge badge-info">new</span></a></li>                    
-                    <li><a href="contact.html">Work Shifts</a></li>                    
-                    <li><a href="contact.html">Terminate Employment</a></li>                    
-                </ul>
-            </li>
+            
 
             <li><a href="javascript:void(0);" class="menu-toggle"><i class="ti ti-layers"></i><span>Reports</span></a>
                 <ul class="ml-menu">
@@ -101,9 +109,10 @@
                 </ul>
             </li>
 
-            <li><a href="javascript:void(0);" class="menu-toggle"><i class="ti ti-panel"></i><span>Settings</span></a>
+            <li class="<?php if($page=='hrm_settings') {echo 'active open';} ?>" > 
+                <a href="javascript:void(0);" class="menu-toggle"><i class="ti ti-panel"></i><span>Settings</span></a>
                 <ul class="ml-menu">
-                    <li><a href="mail-inbox.html">Hrm Settings</a></li>
+                    <li class="<?php if($page=='hrm_settings') {echo 'active';} ?>" ><a href="../admin/hrm_settings.inc.php">Hrm Settings</a></li>
                     <li><a href="mail-inbox.html">Payroll Settings</a></li>
                     <li><a href="mail-inbox.html">Expense Claims Settings</a></li>
                     <li><a href="mail-inbox.html">General HR</a></li>
